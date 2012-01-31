@@ -1,5 +1,6 @@
 figure {
 	display: inline-block;
+
 }
 
 figcaption {
@@ -10,3 +11,10 @@ figcaption {
 figure:hover figcaption {
 	opacity: 1;
 }
+
+img {
+	margin: 5px;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 2px 2px 10px #888;
+	}
