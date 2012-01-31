@@ -2,6 +2,11 @@ figure {
 	display: inline-block;
 }
 
+img {
+	-webkit-transform: scale(0.5, 0.5);
+	-webkit-transition: -webkit-transform 0.5s ease;
+}
+
 figcaption {
 	opacity: 0;
 	-webkit-transition: opacity 0.5s ease;
@@ -9,4 +14,8 @@ figcaption {
 
 figure:hover figcaption {
 	opacity: 1;
+}
+
+figure:hover img {
+	-webkit-transform: scale(1.0, 1.0);
 }
