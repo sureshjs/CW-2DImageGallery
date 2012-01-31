@@ -1,0 +1,12 @@
+figure {
+	display: inline-block;
+}
+
+figcaption {
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease;
+}
+
+figure:hover figcaption {
+	opacity: 1;
+}
